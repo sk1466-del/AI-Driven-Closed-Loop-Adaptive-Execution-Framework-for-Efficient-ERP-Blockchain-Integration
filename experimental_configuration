@@ -1,0 +1,31 @@
+# Experimental Configuration
+
+Training ratio: 80%
+Testing ratio: 20%
+
+Random seed: 42
+
+Random Forest:
+
+* n_estimators = 100
+* max_depth = 12
+
+Gradient Boosting:
+
+* n_estimators = 150
+* learning_rate = 0.05
+
+MLP:
+
+* hidden_layer_sizes = (128,64)
+* activation = ReLU
+* solver = Adam
+
+Feature normalization:
+Min-Max Scaling
+
+Target confirmation latency:
+600 seconds
+
+Aggregation interval:
+10 minutes
