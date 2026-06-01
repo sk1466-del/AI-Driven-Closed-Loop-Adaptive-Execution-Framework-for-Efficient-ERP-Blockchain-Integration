@@ -1,0 +1,20 @@
+# Dataset Access
+
+This study uses publicly available Bitcoin blockchain traces obtained from the Google BigQuery Public Datasets program.
+
+Dataset:
+Google BigQuery Public Bitcoin Dataset
+
+Project:
+bigquery-public-data
+
+Relevant Tables:
+
+* crypto_bitcoin.blocks
+* crypto_bitcoin.transactions
+
+The dataset can be accessed through Google BigQuery:
+
+https://console.cloud.google.com/marketplace/product/bigquery-public-data/crypto-bitcoin
+
+The dataset is not redistributed in this repository due to its large size and public availability.
