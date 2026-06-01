@@ -1,0 +1,7 @@
+Python dependencies required to reproduce the experiments.
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
